@@ -24,13 +24,13 @@
     padding: 177px 0;
 }
 
-.banner-content h1 {
+.banner-content h2 {
     font-size: 72px;
     color: #fff;
     text-align: center;
 }
 
-.banner-content h3 {
+.banner-content h5 {
     font-size: 32px;
     color: #fff;
     text-align: center;
@@ -42,6 +42,7 @@
 .categories {
     text-align: center;
     padding-top: 20px;
+    margin-bottom: 120px;
 }
 
 .categories h1 {
@@ -56,8 +57,46 @@
     margin-bottom: 16px;
 }
 
-.categories h3 {
+.categories h4 {
     font-size: 48px;
     color: #070211;
     margin-bottom: 48px;
+}
+
+
+/* party section */
+#party {
+    width: 85%;
+    margin: 0 auto;
+    background-image: url('./../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    min-height: 600px;
+    margin-bottom: 120px;
+}
+
+.party-content {
+    width: 50%;
+    padding-left: 126px;
+    padding-top: 126px;
+
+}
+
+.party-content h3 {
+    font-size: 64px;
+    color: #fff;
+    margin-bottom: 24px;
+    line-height: 88px;
+}
+
+.party-content p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 48px;
+    line-height: 30px;
+}
+
+.party-content a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
