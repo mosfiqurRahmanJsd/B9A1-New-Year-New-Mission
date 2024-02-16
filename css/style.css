@@ -102,6 +102,54 @@
 }
 
 
+/* new best offer section */
+.best-offer {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.best-offer-box-img {
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.best-offer-box-img img {
+    width: 100%;
+}
+
+.best-offer .box {
+    width: 30%;
+}
+
+.best-offer h4 {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.best-offer h6 {
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.best-offer p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #070211;
+    margin-bottom: 48px;
+}
+
+.best-offer .year-highlight {
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+
 /* portfolio section */
 #portfolio {
     width: 85%;
