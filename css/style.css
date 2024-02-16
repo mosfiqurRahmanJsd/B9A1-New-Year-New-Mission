@@ -188,6 +188,10 @@
     margin: 12px;
 }
 
+.portfolio-images img:hover {
+    transform: scale(1.1);
+    transition: 0.5s all ease;
+}
 
 /* subscribe section */
 #subscribe {
