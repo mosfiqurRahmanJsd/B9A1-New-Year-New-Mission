@@ -106,6 +106,7 @@
 #portfolio {
     width: 85%;
     margin: 0 auto;
+    margin-bottom: 120px;
 }
 
 .portfolio-content {
@@ -137,4 +138,61 @@
     height: 450px;
     display: inline-block;
     margin: 12px;
+}
+
+
+/* subscribe section */
+#subscribe {
+    width: 85%;
+    min-height: 616px;
+    background-color: #FFF2F2;
+    margin: 0 auto;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.subscribe-content {
+    padding-top: 80px;
+}
+
+.subscribe-content img {
+    margin-bottom: 40px;
+}
+
+.subscribe-content h4 {
+    font-size: 48px;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.subscribe-content p {
+    font-size: 20px;
+    color: #070211;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.subscribe-input-box {
+    width: 648px;
+    display: inline-flex;
+}
+
+.subscribe-input-box input {
+    border: none;
+}
+
+.subscribe-input-box input[type=email] {
+    height: 72px;
+    width: 100%;
+    border-radius: 50px 0 0 50px;
+    font-size: 32px;
+}
+
+.subscribe-input-box input[type=submit] {
+    padding: 24px 56px;
+    background-color: #FF0000;
+    border-radius: 0 50px 50px 0;
+    font-size: 20px;
+    color: #fff;
 }
