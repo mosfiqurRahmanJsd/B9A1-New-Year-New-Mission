@@ -100,3 +100,41 @@
     color: white;
     font-size: 20px;
 }
+
+
+/* portfolio section */
+#portfolio {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.portfolio-content {
+    width: 60%;
+    padding-bottom: 48px;
+    margin-left: 12px;
+}
+
+.portfolio-content h6 {
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.portfolio-content h4 {
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+
+.portfolio-content p {
+    font-size: 20px;
+    color: #070211;
+    line-height: 32px;
+}
+
+
+.portfolio-images img {
+    width: 421px;
+    height: 450px;
+    display: inline-block;
+    margin: 12px;
+}
