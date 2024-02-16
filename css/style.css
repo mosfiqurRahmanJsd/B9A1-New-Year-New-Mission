@@ -1,10 +1,23 @@
+/* default style */
 * {
     margin: 0;
     padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Merriweather", serif;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+}
 
 
+/* top banner section */
 #header {
     margin: 0 auto;
     margin-top: 50px;
@@ -15,10 +28,6 @@
     margin-bottom: 100px;
 }
 
-
-
-
-/* top banner section */
 .banner-content {
     align-items: center;
     padding: 177px 0;
@@ -49,6 +58,7 @@
     font-size: 88px;
     color: #FF0000;
     margin-bottom: 48px;
+    font-family: "Inter", sans-serif;
 }
 
 .categories p {
@@ -61,6 +71,7 @@
     font-size: 48px;
     color: #070211;
     margin-bottom: 48px;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -281,6 +292,15 @@ ul li {
 
 .footer-top ul {
     list-style: none;
+}
+
+.footer-top ul li {
+    display: flex;
+}
+
+.footer-top ul li img {
+    margin-top: 9px;
+    margin-right: 20px;
 }
 
 hr {
